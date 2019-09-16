@@ -1,0 +1,20 @@
+name: react by github action
+on: 
+  push:
+    branches:
+    - master
+    
+jobs:
+  react_package_job:
+    name: react build
+  runs-on: ubuntu-latest
+  steps:
+  - name: test ....
+    env: 
+      MY_VAR: Hi there....
+      FIRST_NAME: dottie123
+      MIDDLE_NAME: &
+      LAST_NAME: daejong123
+    run: |
+      echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+    
