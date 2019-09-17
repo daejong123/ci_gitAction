@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-    
 jobs:
   react_package_job:
     runs-on: ubuntu-latest
