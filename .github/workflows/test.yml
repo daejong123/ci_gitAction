@@ -1,5 +1,5 @@
 name: Greeting from Mona
-on: push
+on: [push]
 
 jobs:
   my-job:
